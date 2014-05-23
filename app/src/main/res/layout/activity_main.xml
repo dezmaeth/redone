@@ -1,0 +1,129 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nexusmodels.app.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="172dp"
+        android:layout_height="152dp"
+        android:text="Disconnected"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/close"
+        android:layout_toLeftOf="@+id/wingsLabel"
+        android:layout_x="13dp"
+        android:layout_y="105dp"
+        android:autoText="false"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/attachbtn"
+        android:layout_above="@+id/label"
+        android:layout_toRightOf="@+id/label"
+        android:layout_marginBottom="32dp"
+        android:layout_x="260dp"
+        android:layout_y="120dp" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/detachbtn"
+        android:layout_above="@+id/mechBtn"
+        android:layout_toRightOf="@+id/label"
+        android:layout_x="260dp"
+        android:layout_y="180dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wingsOpen"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/close"
+        android:layout_alignRight="@+id/mechBtn"
+        android:layout_x="265dp"
+        android:layout_y="317dp"
+        android:background="@drawable/wingopenbtn" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wingsClose"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_x="265dp"
+        android:layout_y="369dp"
+        android:background="@drawable/wingsclosebtn" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="94dp"
+        android:layout_height="84dp"
+        android:id="@+id/engineBtn"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/blueBtn"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginBottom="104dp"
+        android:layout_x="145dp"
+        android:layout_y="320dp"
+        android:background="@drawable/enginebtn" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:id="@+id/mechBtn"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_y="405dp"
+        android:background="@drawable/astromechbtn"
+        android:layout_x="145dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/redyellowBtn"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_x="20dp"
+        android:layout_y="318dp"
+        android:background="@drawable/redled" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueBtn"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_x="20dp"
+        android:layout_y="369dp"
+        android:background="@drawable/blueled" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/greenBtn"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_x="20dp"
+        android:layout_y="420dp"
+        android:background="@drawable/greenled" />
+
+</AbsoluteLayout>

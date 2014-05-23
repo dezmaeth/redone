@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RED1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mechSwitch">Astromech light</string>
+    <string name="wingsSwitch">Attack wings (Open/Close)</string>
+    <string name="redyellowSwitch">Panel light red/yellow</string>
+    <string name="blueSwitch">Panel light blue</string>
+    <string name="greenSwitch">Panel light green</string>
+    <string name="engineSwitch">Engine light</string>
+    <string name="buttonSwitch">ON/OFF</string>
+    <string name="title_activity_setting">settingActivity</string>
+</resources>
