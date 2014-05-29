@@ -23,7 +23,6 @@ import java.util.UUID;
 
 public class MainActivity extends ActionBarActivity {
     TextView myLabel;
-    EditText myTextbox;
     BluetoothAdapter mBluetoothAdapter;
     BluetoothSocket mmSocket;
     BluetoothDevice mmDevice;
